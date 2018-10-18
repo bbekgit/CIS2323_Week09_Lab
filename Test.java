@@ -3,6 +3,7 @@ import java.io.*;
 public class Test{
 	public static void main(String []args){
 		String filename = "test.txt";
+		String line = null;
 		
 		try{
 		FileReader fileReader = new FileReader(fileName);
